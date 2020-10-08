@@ -6,5 +6,5 @@
 ## Write the necessary HTML and CSS to create the following layout (CSS Grid Layout)
 ![CSS Layout Exercise - Flexbox](./design/css-grid.png)
 
-### License
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
