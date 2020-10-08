@@ -1,1 +1,1 @@
-# rithmschool-css-layout-exercise
+# Rithm School | CSS Layout Exercise
