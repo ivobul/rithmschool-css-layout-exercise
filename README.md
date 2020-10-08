@@ -9,5 +9,3 @@
 ## Link
 [Rithm School HTML and CSS Basics](https://www.rithmschool.com/courses/html-css-fundamentals/)
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
