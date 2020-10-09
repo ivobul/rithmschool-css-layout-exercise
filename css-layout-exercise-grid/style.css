@@ -34,6 +34,7 @@ nav {
     'img1 img2 img3'
     'box1 box2 box3';
   grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 100px auto 200px;
   padding: 15px;
 }
