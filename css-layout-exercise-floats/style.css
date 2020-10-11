@@ -26,7 +26,12 @@ nav {
 }
 
 /* Clearfix hack */
-.row:before, .row:after { content: ''; display: table; clear: both; }
+.row:before, 
+.row:after { 
+  content: ''; 
+  display: table; 
+  clear: both;
+}
 
 .row:last-child {
   padding-bottom: 30px;
