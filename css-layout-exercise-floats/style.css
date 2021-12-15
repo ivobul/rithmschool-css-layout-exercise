@@ -34,18 +34,20 @@
   margin-top: 30px;
 }
 
-.col-full {
+.col {
   border: 2px solid #000;
+}
+
+.col-12 {
   height: 100px;
   width: 100%;
 }
 
-.col-full--color-blue {
+.col-12--color-blue {
   background-color: #8aaddb;
 }
 
 .col-3 {
-  border: 2px solid #000;
   float: left;
   height: 300px;
   width: calc((100% - 40px) / 3);
