@@ -2,15 +2,15 @@
 
 ## Write the necessary HTML and CSS to create the following layout
 
-### (Flexbox)
+### Flexbox
 
 ![CSS Layout Exercise - Flexbox](./design/flexbox.png)
 
-### (Floats)
+### Floats
 
 ![CSS Layout Exercise - Flexbox](./design/floats.png)
 
-### (CSS Grid Layout)
+### CSS Grid Layout
 
 ![CSS Layout Exercise - Flexbox](./design/css-grid.png)
 
