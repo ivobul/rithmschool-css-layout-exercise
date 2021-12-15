@@ -9,6 +9,10 @@
 }
 
 .container {
+  padding: 0 30px;
+}
+
+.site {
   border: 2px solid #000;
   min-height: 500px;
   margin: 64px auto;
@@ -29,15 +33,6 @@
 .row--mt-30 {
   margin-top: 30px;
 }
-
-/*  
-.row:befor, 
-.row:after { 
-  content: ''; 
-  display: table; 
-  clear: both;
-}
-*/
 
 .col-full {
   border: 2px solid #000;
