@@ -4,15 +4,15 @@
 
 ### Flexbox
 
-![CSS Layout Exercise - Flexbox](./design/flexbox.png)
+![CSS Layout Exercise - Flexbox](design/flexbox.png)
 
 ### Floats
 
-![CSS Layout Exercise - Flexbox](./design/floats.png)
+![CSS Layout Exercise - Flexbox](design/floats.png)
 
 ### CSS Grid Layout
 
-![CSS Layout Exercise - Flexbox](./design/css-grid.png)
+![CSS Layout Exercise - Flexbox](design/css-grid.png)
 
 ### Link
 [Rithm School HTML and CSS Basics](https://www.rithmschool.com/courses/html-css-fundamentals/)
