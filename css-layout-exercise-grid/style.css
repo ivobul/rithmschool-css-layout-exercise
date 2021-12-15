@@ -4,11 +4,15 @@
   padding: 0;
 }
 
-body {
+.body {
   font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
+  padding: 0 30px;
+}
+
+.site {
   display: grid;
   border: 2px solid #000;
   margin: 64px auto;
@@ -16,13 +20,7 @@ body {
   width: 100%;
 }
 
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-nav {
+.nav {
   border-bottom: 2px solid #000;
   padding: 6px 8px;
 }
@@ -30,50 +28,62 @@ nav {
 .main {
   display: grid;
   grid-template-areas:
-    'large large large'
-    'img1 img2 img3'
-    'box1 box2 box3';
+    'green green green'
+    'image1 image2 image3'
+    'orange roman blue';
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 100px auto 200px;
   padding: 15px;
 }
 
-.box-lg {
-  border: 2px solid #000;
+.box-full {
   background-color: #009e0f;
-  grid-area: large;
+  grid-area: green;
 }
 
-.img1 {
-  grid-area: img1;
+.image1 {
+  grid-area: image1;
 }
 
-.img2 {
-  grid-area: img2;
+.image2 {
+  grid-area: image2;
 }
 
-.img3 {
-  grid-area: img3;
+.image3 {
+  grid-area: image3;
 }
 
-.box-orange,
-.box-roman,
-.box-blue {
+.image__item {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.box {
   border: 2px solid #000;
 }
 
-.box-orange {
+.box1 {
+  grid-area: orange;
+}
+
+.box2 {
+  grid-area: roman;
+}
+
+.box3 {
+  grid-area: blue;
+}
+
+.box1--color-orange {
   background-color: #ff9900;
-  grid-area: box1;
 }
 
-.box-roman {
+.box2--color-roman {
   background-color: #e06666;
-  grid-area: box2;
 }
 
-.box-blue {
+.box3--color-blue {
   background-color: #8aaddb;
-  grid-area: box3;
 }
