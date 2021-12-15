@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-body {
+.body {
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -16,56 +16,63 @@ body {
   width: 100%;
 }
 
-nav {
+.nav {
   border-bottom: 2px solid #000;
   padding: 6px 8px;
 }
 
-.row {
-  padding: 30px 20px 0 20px;
+.main {
+  overflow: hidden; /* Clearfix hack */
+  padding: 30px 20px;
 }
 
-/* Clearfix hack */
-.row:before, 
+.row--mt-30 {
+  margin-top: 30px;
+}
+
+/*  
+.row:befor, 
 .row:after { 
   content: ''; 
   display: table; 
   clear: both;
 }
+*/
 
-.row:last-child {
-  padding-bottom: 30px;
+.col-full {
+  border: 2px solid #000;
+  height: 100px;
+  width: 100%;
 }
 
-.box-full {
-  border: 2px solid #000;
-  width: 100%;
-  height: 100px;
+.col-full--color-blue {
   background-color: #8aaddb;
 }
 
-.box {
+.col-3 {
   border: 2px solid #000;
-  width: calc((100% - 40px) / 3);
-  height: 300px;
-  background-color:#9fc5f8;
   float: left;
+  height: 300px;
+  width: calc((100% - 40px) / 3);
+}
+
+.col-3--mr-20 {
   margin-right: 20px;
 }
 
-.box:last-child {
+.col-3--mr-0 {
   margin-right: 0;
 }
 
-.roman {
+.col-3--color-roman {
   background-color: #e06666;
 }
 
-.gossip {
+.col-3--color-gossip {
   background-color: #93c47d;
 }
 
-.orange-peel {
+.col-3--color-orange {
   background-color: #ff9900;
 }
 
