@@ -1,11 +1,19 @@
 # Rithm School | CSS Layout Exercise
-## Write the necessary HTML and CSS to create the following layout (Flexbox)
+
+## Write the necessary HTML and CSS to create the following layout
+
+### (Flexbox)
+
 ![CSS Layout Exercise - Flexbox](./design/flexbox.png)
-## Write the necessary HTML and CSS to create the following layout (Floats)
+
+### (Floats)
+
 ![CSS Layout Exercise - Flexbox](./design/floats.png)
-## Write the necessary HTML and CSS to create the following layout (CSS Grid Layout)
+
+### (CSS Grid Layout)
+
 ![CSS Layout Exercise - Flexbox](./design/css-grid.png)
 
-## Link
+### Link
 [Rithm School HTML and CSS Basics](https://www.rithmschool.com/courses/html-css-fundamentals/)
 
