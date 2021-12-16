@@ -53,7 +53,7 @@
   width: calc((100% - 40px) / 3);
 }
 
-.col-3:not(:last-child) {
+.mr-20 {
   margin-right: 20px;
 }
 
