@@ -37,9 +37,16 @@
   padding: 15px;
 }
 
-.box-full {
-  background-color: #009e0f;
+.box {
+  border: 2px solid #000;
+}
+
+.box1 {
   grid-area: green;
+}
+
+.box1--color-green {
+  background-color: #009e0f;
 }
 
 .image1 {
@@ -60,30 +67,26 @@
   width: 100%;
 }
 
-.box {
-  border: 2px solid #000;
-}
-
-.box1 {
+.box2 {
   grid-area: orange;
 }
 
-.box2 {
-  grid-area: roman;
-}
-
-.box3 {
-  grid-area: blue;
-}
-
-.box1--color-orange {
+.box2--color-orange {
   background-color: #ff9900;
 }
 
-.box2--color-roman {
+.box3 {
+  grid-area: roman;
+}
+
+.box3--color-roman {
   background-color: #e06666;
 }
 
-.box3--color-blue {
+.box4 {
+  grid-area: blue;
+}
+
+.box4--color-blue {
   background-color: #8aaddb;
 }
